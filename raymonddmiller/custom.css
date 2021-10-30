@@ -1,0 +1,49 @@
+/* hero */
+
+/* remove default borders and fork icon */
+.hero-header .maketable,
+.hero-header .bottomBorder {
+  display: none;
+}
+
+.hero-header {
+  font-size: 1.25em;
+}
+
+.hero-header .span-dot {
+  color: #dfa400;
+}
+
+.hero-text {
+  width: 70%;
+  margin: auto;
+}
+
+/* fancy header */
+
+.maketable .fork-icon,
+.module-fancy-heading .maketable .fork-icon {
+  content: "";
+  display: block;
+  background: url("https://www.raymonddmiller.com/wp-content/uploads/2021/04/pen-and-paper-medium-icon.png")
+    no-repeat center;
+  width: 36px;
+  height: 36px;
+  margin: 0 8px;
+}
+
+/* footer */
+
+#footerwrap {
+  /* 	padding-bottom: 0; */
+  padding: 0;
+}
+
+.footer-text {
+  background-color: #181818 !important;
+}
+
+.back-top-float {
+  background-color: #dfa400 !important;
+  color: #333 !important;
+}

@@ -1,0 +1,100 @@
+/* Reduce mobile logo size */
+
+.ast-mobile-header-logo {
+  max-width: 213px;
+}
+
+/* Force all states of mobile toggle button to be white */
+
+.menu-toggle-icon,
+.menu-toggle-icon:active,
+.menu-toggle-icon:hover {
+  color: white;
+}
+
+/* Hover for links on Contact Us Page */
+
+#post-8
+  > div
+  > div
+  > div
+  > div
+  > section.elementor-element.elementor-element-32b9b29.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section
+  > div
+  > div
+  > div.elementor-element.elementor-element-3417bb7.elementor-column.elementor-col-50.elementor-top-column
+  > div
+  > div
+  > div.elementor-element.elementor-element-740b462.elementor-view-default.elementor-vertical-align-top.elementor-widget.elementor-widget-icon-box
+  > div
+  > div
+  > div
+  > p
+  > a:hover,
+#post-8
+  > div
+  > div
+  > div
+  > div
+  > section.elementor-element.elementor-element-32b9b29.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section
+  > div
+  > div
+  > div.elementor-element.elementor-element-3417bb7.elementor-column.elementor-col-50.elementor-top-column
+  > div
+  > div
+  > div.elementor-element.elementor-element-f741358.elementor-view-default.elementor-vertical-align-top.elementor-widget.elementor-widget-icon-box
+  > div
+  > div
+  > div
+  > p
+  > a:hover {
+  color: #ff6d00 !important;
+}
+
+/* Sticky Footer */
+
+html,
+body {
+  height: 100% !important;
+}
+
+body {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  height: 100% !important;
+}
+
+#content {
+  flex: 1 0 auto !important;
+}
+
+footer {
+  flex-shrink: 0 !important;
+}
+
+/* Mobile footer email and phone spacing */
+
+@media (max-width: 400px) {
+  .ast-footer-overlay span {
+    display: block;
+  }
+
+  #footer-separator {
+    display: none;
+  }
+}
+
+/* Prevent hamburger menu from pushing down page content */
+
+.main-header-bar-navigation {
+  padding-top: 0 !important;
+}
+
+.main-navigation {
+  height: 0;
+}

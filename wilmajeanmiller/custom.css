@@ -1,0 +1,79 @@
+.post-meta:after {
+  background: none !important;
+  border-bottom: 3px solid #c59d5f;
+  margin-bottom: 40px !important;
+  width: 300px !important;
+}
+
+.tb_optin_submit {
+  width: 300px;
+  margin: 30px auto 0;
+}
+
+.post-date-wrap:not(.post-date-inline) time.post-date {
+  background-color: #660000;
+}
+
+.testimonial-content:before {
+  color: #660000;
+}
+
+.module-testimonial-slider .testimonial-image img {
+  border: 5px solid #660000;
+}
+
+.footer-tab,
+#pagewrap .back-top-float,
+.back-top:not(.back-top-float) .arrow-up a {
+  background-color: rgba(102, 0, 0, 0.8);
+}
+
+.testimonial-author .person-name {
+  margin-right: 0;
+}
+
+#footerwrap {
+  padding: 60px 0;
+}
+
+#footer {
+  padding-right: 0;
+}
+
+#footer-logo {
+  margin: 0 0 1em;
+}
+
+.footer-text {
+  margin-top: 15px;
+}
+
+.footer-text,
+#footer .social-widget {
+  padding: 0;
+}
+
+/* blog post styles */
+
+*[id^="post-"] .entry-content a {
+  color: #660000;
+  text-decoration: none;
+}
+
+*[id^="post-"] .entry-content a:hover {
+  color: #363636;
+}
+
+#content > div.post-nav.tf_box.tf_clearfix .arrow {
+  color: #660000;
+}
+
+/* hide poster email address and tag from blog posts, add spacing below missing elements */
+
+.post-meta.entry-meta {
+  display: none;
+}
+
+.post-title.entry-title {
+  margin-bottom: 1.6rem;
+}
