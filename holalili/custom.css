@@ -1,0 +1,50 @@
+:root {
+  --main-text: #333;
+	--amber: #f6c55b;
+	--goldenrod: #d99a29;
+	--umber: #5c4520;
+	--wine: #4a0531;
+}
+
+.cart-icon {
+  display: none !important;
+}
+
+/* Shop landing page */
+
+.woocommerce-products-header h1,
+.woocommerce .woocommerce-breadcrumb a,
+.woocommerce ul.products li.product a, .woocommerce ul.products li.product .price {
+	color: var(--main-text);
+}
+
+.woocommerce .woocommerce-breadcrumb,
+.woocommerce .woocommerce-result-count,
+.woocommerce .woocommerce-ordering select {
+	color: var(--main-text);
+}
+
+.woocommerce .woocommerce-ordering select {
+	border-color: var(--wine);
+}
+
+.summary.entry-summary div.product_meta span.posted_in a {
+	color: var(--main-text);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+	border-color: var(--wine);
+}
+
+.woocommerce .related h2,
+.woocommerce .upsells h2 {
+	color: var(--main-text);
+}
+
+/* Back-to-top arrow */
+.footer-tab,
+#pagewrap .back-top-float,
+.back-top:not(.back-top-float) .arrow-up a {
+	color: var(--amber);
+  background-color: var(--wine);
+}
