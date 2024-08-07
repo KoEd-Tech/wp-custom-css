@@ -38,7 +38,7 @@
 /* footer */
 
 #footerwrap {
-  padding-top: 0;
+  padding: 2em 0 2em;
   background: #e4e4e4;
   color: #0a0a23;
 }
